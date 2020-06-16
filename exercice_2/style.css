@@ -1,0 +1,45 @@
+body {
+    margin: 5px 5px;
+}
+:root {
+    --marges-height: 10px;
+}
+header, .container .redbox {
+    width: 100%;
+}
+
+header {
+    background-color: blue;
+    height: 100px;    
+}
+
+.container .redbox {
+    background-color: red;
+    height: 50px;
+    margin-bottom : var(--marges-height);
+    margin-top: var(--marges-height);
+}
+
+.container .ligne {
+    height: 200px;
+    display: flex;
+}
+
+.container .ligne .jaune, .container .ligne .vert {
+    width: 50%;
+}
+
+.container .ligne .jaune {
+    background-color: rgb(255, 215, 0);
+}
+
+.container .ligne .bleu {
+    background-color: blue;
+    margin-right: var(--marges-height);
+    margin-left: var(--marges-height);
+    width: 100%;
+}
+
+.container .ligne .vert {
+    background-color: green;
+}

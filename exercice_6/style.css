@@ -1,0 +1,35 @@
+div {
+    padding: 10px;
+    text-align: center;
+}
+
+.vert, .orange {
+    display: none;
+}
+
+.rouge {
+    background-color: red;
+}
+
+@media screen and (min-width: 501px) {
+    .rouge {
+        display: none;
+    }
+
+    .orange {
+        display: block;
+        background-color: orange;
+    }
+}
+
+@media screen and (min-width: 1101px) {
+
+    .rouge, .orange {
+        display: none;
+    }
+
+    .vert {
+        display: block;
+        background-color: greenyellow;
+    }
+}
